@@ -1,0 +1,111 @@
+/*  DEVELOPER: Ross Bonifacio, IS117-005, Fall 2019 */
+
+body {
+    background-image: url("https://pbs.twimg.com/media/EJ6IXn5WoAAaox0?format=png&name=small");
+    background-repeat:repeat;
+    background-attachment: fixed;
+}
+
+
+
+home {
+    margin-top:30px!important;
+    width:80%;
+    z-index:-9999!important;
+    overflow:hidden;
+    display:block;
+}
+
+home img {
+    max-width:310px;
+    max-height:20%;
+    margin: 7px;
+    opacity:.9;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+
+
+home img:hover{
+    opacity:1;
+
+    border:6px solid #D3D0D0;
+   /* max-width:320px; */
+
+}
+about {
+    font-size:20px;
+    line-height:1.7em;
+
+}
+
+contains {
+    position:relative;
+
+    width:80%;
+
+    padding:30px 40px 100px 40px;
+    height:100%;
+    background-color:white;
+    display:block;
+    margin: auto;
+
+}
+
+contains .title {
+    font-family:Oswald, Arial, sans-serif;
+    font-size:55px;
+    text-align:left;
+
+}
+
+illus {
+    font-family:'Roboto Condensed', Arial, sans-serif;
+    font-size:20px
+}
+
+illus .title{
+    font-family:Oswald, Arial, sans-serif;
+    font-size:30px;
+}
+
+illus img {
+    max-width:250px;
+    max-height:300px;
+    margin:5px;
+}
+
+illus a {
+    color:black;
+}
+
+illus a:hover {
+    color:black;
+    text-decoration: none;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    color: #404040;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+
+pro {
+    margin:5px;
+    display:block;
+    font-size:20px;
+    line-height:1.7em;
+}
+
